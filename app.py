@@ -8,7 +8,7 @@ import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Load the pickled model
-model = load_model(open('diagnostic.h5', 'rb')) 
+model = load(open('diagnostic.h5', 'rb')) 
 dataset= pd.read_csv('PCA_NN_dataset1.csv')
 
 x = dataset.iloc[:, :-1].values
