@@ -61,7 +61,7 @@ def main():
     Insulin =  st.number_input('Insert Insulin')
     BMI =st.number_input('Insert BMI')
     PedigreeFunction = st.number_input('Insert PedigreeFunction')
-    Age = st.number_input('Insert Age")
+    Age = st.number_input('Insert Age')
 
     resul=""
     if st.button("Prediction"):
